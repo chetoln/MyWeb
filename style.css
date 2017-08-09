@@ -1,0 +1,128 @@
+html h1 {
+    color: darksalmon;
+    font-family: serif, sans-serif;
+}
+
+h1, h2, h3{
+    color:chartreuse;
+    text-align: center;
+    text-shadow: 5px 5px 10px red;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+h2 {
+    color:yellow;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif, serif;
+}
+
+h1 {
+    color: aquamarine !important;
+}
+
+
+body {
+    /*background-image: url(https://ichef.bbci.co.uk/images/ic/480x270/p049tgdb.jpg);
+    background-repeat: no-repeat;
+    background-size:cover*/
+    background-color: #444
+}
+
+/*
+Class
+*/
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/*
+ID
+*/
+#circle {
+    color: purple;
+    font-size: 26px;
+}
+
+.container {
+    box-shadow: 3px 5px 3px orange;
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(green, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, green, yellow); /* Standard syntax (must be last) */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 1;
+    /*align center*/
+    display: block;
+    margin: auto;
+}
+
+.borderImage {
+/*    border: 10px dashed red;*/
+    border-radius: 10%;
+    border: 2px solid #ddd;
+    padding: 5px;
+    width: 100px;
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+ul > li {
+    color: purple;
+}
+
+a {
+    text-decoration:none;
+    word-spacing: 10px;
+    color:yellow;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: wheat;
+}
+
+.row {
+    display: flex;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    border: 2px solid red;
+    padding: 10px;
+    float: left;
+}

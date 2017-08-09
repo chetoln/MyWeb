@@ -1,0 +1,23 @@
+body {
+    background-color: #888888;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    text-shadow: 5px 5px 5px yellow
+}
+
+p {
+    color: green;
+}
+
+.pickClass {
+    color: rgb(35, 67, 146)
+}
+
+#pickId {
+    color: aquamarine;
+    background-color:brown;
+    border: 3px dashed orange;
+}
